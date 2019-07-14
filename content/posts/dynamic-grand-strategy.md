@@ -1,8 +1,9 @@
 ---
 title: "Dynamic Grand Strategy"
 date: 2018-11-01T16:29:11-04:00
-draft: true
+draft: false
 author: Joe Howarth
+type: post
 ---
 
 Grand strategy games like Europa Universalis, Crusader Kings, Civilization, Victoria

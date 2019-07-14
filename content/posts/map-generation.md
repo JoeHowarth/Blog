@@ -3,6 +3,7 @@ title: "Map Generation"
 date: 2018-11-01T20:21:39-04:00
 draft: true
 author: Joe Howarth
+type: post
 ---
 
     Part 2 in Historical Simulation series
