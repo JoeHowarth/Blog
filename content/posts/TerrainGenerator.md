@@ -1,9 +1,10 @@
 ---
 title: "Terrain Generator Module"
 date: 2019-04-16
-draft: true
+draft: false
 author: Joe Howarth
 type: post
+tags: ['Population Simulation', 'Design Doc']
 ---
 
 ## Terrain Generator Module
@@ -27,8 +28,8 @@ Currently written in Javascript, the current client grew out of the map generato
 that initially allowed the easiest way to visualize the output directly without networking 
 infrastructure. 
 
-The current map generator is heavily inspired by Martin O'Leary's Polygonal [Fantasy Map Generator](Amit Patel http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation).
-It computational geometry techniques and data structures ([more detail](MapGen_README.md)) that make for good regional scale maps
+The current map generator is heavily inspired by Martin O'Leary's Polygonal [Fantasy Map Generator](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation).
+It computational geometry techniques and data structures ([more detail](posts/MapGen_README.md)) that make for good regional scale maps
 with plausible erosion and water flux, but the random hill placement does not scale well beyond 
 ~500x500 km maps. Additionally, while the use of irregular triangles makes for a non-uniform and thus
 organic looking map, it also significantly complicates many implementations. 
@@ -81,7 +82,7 @@ to the non-uniform Delaunay triangulation strategy.
 ### Usage
 
 The output of **stage II** should be saved to disk and loadable by the 
-[World Building](WorldBuilding.md) module.
+[World Building](posts/WorldBuilding.md) module.
 
 This whole module should be a separate runnable CLI process to facilitate fast compile iteration
 (If this is JS based this is trivially true). This also means that many maps can be generated and 

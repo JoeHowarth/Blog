@@ -1,9 +1,10 @@
 ---
 title: "Challenging A Player"
-date: 2019-04-16
-draft: true
+date: 2019-06-15
+draft: false
 author: Joe Howarth
 type: post
+tags: ['Population Simulation', 'thoughts']
 ---
 ### How to challenge a Player
 
@@ -15,6 +16,7 @@ These agents will be incapable of strategic thinking.
 
 So how can the player be challenged in such an environment? Here are a few 
 avenues:
+
 1. Actions have so many trickle down effects that there will always be unintended consequences 
    the player can't predict
 2. Limit information so analysis can't be completely sound

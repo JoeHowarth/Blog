@@ -1,4 +1,4 @@
-# baseURL = "http://example.org/"
+# baseURL = "https://joehowarth.github.io/"
 # languageCode = "en-us"
 # title = "Joe Howarth"
 # theme = "beautifulhugo"
@@ -7,7 +7,7 @@
 # [params]
 # useHLJS = true
 
-baseurl = "https://username.github.io"
+baseurl = "https://joehowarth.github.io"
 DefaultContentLanguage = "en"
 title = "Joe Howarth"
 theme = "beautifulhugo"
@@ -62,27 +62,15 @@ metaDataFormat = "yaml"
     weight = 3
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
+    identifier = "sim"
+    name = "Historical Simulation"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
+    parent = "sim"
+    name = "Population Design"
+    url = "posts/populationdesign"
     weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
 
 [[menu.main]]
     name = "Tags"

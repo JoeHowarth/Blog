@@ -1,9 +1,10 @@
 ---
 title: "Map Generation Project"
 date: 2018-11-01T16:29:11-04:00
-draft: true
+draft: false
 author: Joe Howarth
 type: post
+tags: ["maps", 'readme', 'algorithmic']
 ---
 
 # Map Generation Project

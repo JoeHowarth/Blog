@@ -1,9 +1,10 @@
 ---
 title: "Map Generation"
 date: 2018-11-01T20:21:39-04:00
-draft: true
+draft: false
 author: Joe Howarth
 type: post
+tags: ['Population Simulation', 'old', 'thoughts']
 ---
 
     Part 2 in Historical Simulation series

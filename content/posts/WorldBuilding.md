@@ -1,7 +1,7 @@
 ---
 title: "World Building Module"
 date: 2019-04-16
-draft: true
+draft: false
 tags: ['Population Simulation', 'Module', 'Design Doc']
 author: Joe Howarth
 type: post

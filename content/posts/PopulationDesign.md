@@ -1,9 +1,10 @@
 ---
 title: "Designing the Population System"
-date: 2018-11-01T16:29:11-04:00
-draft: true
+date: 2019-04-20
+draft: false
 author: Joe Howarth
 type: post
+tags: ['Population Simulation', 'thoughts', 'Design Doc']
 ---
 
 ### Population Design Document
