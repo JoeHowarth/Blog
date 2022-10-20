@@ -48,7 +48,7 @@ metaDataFormat = "yaml"
   facebook = "joseph.e.howarth"
   #   googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
   github = "JoeHowarth"
-#   twitter = "username"
+  twitter = "JoeHowarth20"
 #   linkedin = "username"
 
 [[menu.main]]
