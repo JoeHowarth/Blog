@@ -53,7 +53,7 @@ metaDataFormat = "yaml"
 
 [[menu.main]]
     name = "Blog"
-    url = ""
+    url = "posts/"
     weight = 1
 
 [[menu.main]]
